@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="programa.php" method="GET">
+        
+            
+            
+            <label for="idNome">Nome:</label>
+            <input type="text" id="idNome" name="nome" placeholder="Digite o nome">
+            <br>
+
+            <label for="idData">Data Nascimento:</label>
+            <input type="date" id="idData" name="dtNasc" ><br>
+            
+            Sexo:
+                <input type="radio" name="sexo" id="ms" value="1">
+                <label for="ms">Masc</label>
+
+                <input type="radio" name="sexo" id="fm" value="2">
+                <label for="fm">Fem</label>
+
+                <input type="radio" name="sexo" id="inf" value="3">
+                <label for="inf">Prefiro não informar</label> <br>
+
+
+            <label for="idender">Endereço:</label>
+            <input type="text" id="idender" name="ender" ><br> 
+
+            <label for="idlog">Logradouro:</label>
+            <input type="text" id="idlog" name="log" ><br> 
+            
+            <label for="idbair">Bairro:</label>
+            <input type="text" id="idbair" name="bair" ><br> 
+
+            <label for="idcid">Cidade:</label>
+            <input type="text" id="idcid" name="cid" ><br> 
+
+            <label for="idUF">UF:</label>
+            <select name="UF" id="idUF">
+                <option>DF</option>
+                <option>GO</option>
+                <option>SP</option>
+                <option>RJ</option>
+            </select><br>
+
+            <label for="idEmail">E-mail:</label>
+            <input type="email" id="idEmail" name="email" >
+            <br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+
+
+            
+
+        
+
+
+            </form>
+
+    
+</body>
+</html>
